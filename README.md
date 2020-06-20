@@ -1,3 +1,3 @@
 # pastel.codes
 
-A portfolio website written in Node.js 
+A portfolio website written in node.js, pug and sass

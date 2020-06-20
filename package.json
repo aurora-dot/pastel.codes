@@ -6,12 +6,16 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "morgan": "~1.9.1",
+    "cookie-parser": "1.4.4",
+    "debug": "4.1.1",
+    "express": "4.17.1",
+    "http-errors": "1.7.3",
+    "morgan": "1.10.0",
     "node-sass-middleware": "0.11.0",
-    "pug": "2.0.0-beta11"
+    "pug": "3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon ./bin/www"
   }
 }

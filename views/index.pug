@@ -4,13 +4,13 @@ block content
     article
         header
             // Navbar
-            nav.navbar.mb-4
+            nav.navbar
                 // Navbar brand
                 a.navbar-brand(href='#')
-                    p ESTR
+                    span ESTR
                         span //
                 // Collapse button
-                button.navbar-toggler.ham-button(type='button' data-toggle='collapse' data-target='#navbarSupportedContent23' aria-controls='navbarSupportedContent23' aria-expanded='false' aria-label='Toggle navigation')
+                button.navbar-toggler.ham-button(type='button' data-toggle='collapse' data-target='#navbarSupportedContent23' aria-controls='navbarSupportedContent23' aria-expanded='false' aria-label='Toggle navigation' style='cursor: pointer;')
                     .ham
                         span
                         span
@@ -25,23 +25,31 @@ block content
                                 | Home
                                 span.sr-only (current)
                         li.nav-item
-                            a.nav-link(href='#') Features
+                            a.nav-link(href='#') About
                         li.nav-item
-                            a.nav-link(href='#') Pricing
-                    // Links
-                // Collapsible content
-
+                            a.nav-link(href='#') CV
+                        li.nav-item
+                            a.nav-link(href='#') Projects
+                        li.nav-item
+                            a.nav-link(href='#') Blog
+                        li.nav-item
+                            a.nav-link(href='#') Contact
 
         main
             // left hand text
-            h1
-                | Hello,
-                br
-                | I'm Esther
-            p I'm a Programmer & Designer from the UK.
-            p I like to make stuff
-
-            // The pink right block images and stuff here
+            .home-content
+                .left
+                    h1
+                        | Hello,
+                        br
+                        | I'm
+                        |
+                        span Esther
+                    p I'm a Programmer & Designer from the UK.
+                    p I like to make stuff.
+                .right
+                    .pink-box
+                        //icons
 
         footer
             p piss

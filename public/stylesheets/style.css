@@ -43,23 +43,36 @@ header nav a span {
     font-size: 3.2vh;
     font-family: 'Grifter'; }
 
-header nav #navbarSupportedContent23 ul {
-  background-color: #CC7A98; }
-  header nav #navbarSupportedContent23 ul li {
-    text-align: center; }
-    header nav #navbarSupportedContent23 ul li a {
-      color: #002234; }
+header nav #navbarSupportedContent23 ul li {
+  background-color: #CC7A98;
+  text-align: center; }
+  header nav #navbarSupportedContent23 ul li a {
+    color: #002234; }
+
+header nav #navbarSupportedContent23 ul .active {
+  background-color: #002234; }
+  header nav #navbarSupportedContent23 ul .active a {
+    color: #CC7A98; }
 
 main {
   padding: 0.5rem; }
-  main h1 span {
-    text-decoration: underline #CC7A98; }
+  main h1 {
+    padding-bottom: 1rem;
+    font-size: 50pt; }
+    main h1 span {
+      text-decoration: underline #CC7A98;
+      text-decoration-style: wavy; }
   main p {
+    font-size: 30pt;
     margin-bottom: 5px; }
 
 footer {
   text-align: center;
+  font-size: 1rem;
   padding-bottom: 0.5rem; }
+  footer a {
+    color: #CC7A98;
+    text-decoration: underline #CC7A98; }
 
 .ham {
   width: 30px;

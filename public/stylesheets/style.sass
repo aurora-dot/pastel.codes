@@ -51,24 +51,36 @@ header
 
         #navbarSupportedContent23
             ul
-                background-color: $pink
                 li
+                    background-color: $pink
                     text-align: center
                     a
                         color: $black
+                .active
+                    background-color: $black
+                    a
+                        color: $pink
 
 main
     padding: 0.5rem
     h1
+        padding-bottom: 1rem
+        font-size: 50pt
         span
             text-decoration: underline $pink
+            text-decoration-style: wavy
     p
+        font-size: 30pt
         margin-bottom: 5px
 
 
 footer
     text-align: center
+    font-size: 1rem
     padding-bottom: 0.5rem
+    a
+        color: $pink
+        text-decoration: underline $pink
 
 // Nav stuff
 

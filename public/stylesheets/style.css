@@ -16,8 +16,7 @@
 
 html, body {
   width: 100%;
-  height: 100%;
-  color: white; }
+  height: 100%; }
 
 body {
   background-color: #002234;
@@ -29,6 +28,9 @@ h1 {
 p {
   font-family: "Apercu Mono"; }
 
+a:hover {
+  color: #CDE7B0; }
+
 article {
   min-height: 100%;
   display: grid;
@@ -36,43 +38,51 @@ article {
   grid-template-columns: 100%; }
 
 header nav a span {
-  font-size: 3vh;
+  font-size: 2rem;
   font-family: 'Titling Gothic FB';
   color: #CC7A98; }
   header nav a span span {
-    font-size: 3.2vh;
+    font-size: 2.2rem;
     font-family: 'Grifter'; }
 
-header nav #navbarSupportedContent23 ul li {
-  background-color: #CC7A98;
-  text-align: center; }
-  header nav #navbarSupportedContent23 ul li a {
-    color: #002234; }
-
-header nav #navbarSupportedContent23 ul .active {
-  background-color: #002234; }
-  header nav #navbarSupportedContent23 ul .active a {
-    color: #CC7A98; }
+header nav #navbarSupportedContent23 ul {
+  background-color: #CC7A98; }
+  header nav #navbarSupportedContent23 ul li {
+    background-color: #CC7A98;
+    text-align: center; }
+    header nav #navbarSupportedContent23 ul li a span {
+      color: #002234;
+      font-family: "Apercu Mono"; }
+  header nav #navbarSupportedContent23 ul .active {
+    background-color: #002234; }
+    header nav #navbarSupportedContent23 ul .active a span {
+      color: #CC7A98; }
 
 main {
   padding: 0.5rem; }
   main h1 {
     padding-bottom: 1rem;
-    font-size: 50pt; }
+    font-size: 4.5rem; }
     main h1 span {
       text-decoration: underline #CC7A98;
       text-decoration-style: wavy; }
   main p {
-    font-size: 30pt;
+    font-size: 2rem;
     margin-bottom: 5px; }
 
 footer {
   text-align: center;
   font-size: 1rem;
-  padding-bottom: 0.5rem; }
+  padding: 0.5rem; }
   footer a {
     color: #CC7A98;
     text-decoration: underline #CC7A98; }
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
 
 .ham {
   width: 30px;

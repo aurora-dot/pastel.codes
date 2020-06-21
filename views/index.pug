@@ -22,37 +22,47 @@ block content
                     ul.navbar-nav.mr-auto
                         li.nav-item.active
                             a.nav-link(href='#')
-                                | Home
+                                span Home
                                 span.sr-only (current)
                         li.nav-item
-                            a.nav-link(href='#') About
+                            a.nav-link(href='#')
+                                span About
                         li.nav-item
-                            a.nav-link(href='#') CV
+                            a.nav-link(href='#')
+                                span CV
                         li.nav-item
-                            a.nav-link(href='#') Projects
+                            a.nav-link(href='https://git.pastel.codes')
+                                span Projects
                         li.nav-item
-                            a.nav-link(href='#') Blog
+                            a.nav-link(href='https://blog.pastel.codes')
+                                span Blog
                         li.nav-item
-                            a.nav-link(href='#') Contact
+                            a.nav-link(href='#')
+                                span Contact
 
         main
-            // left hand text
-            .home-content
-                .left
-                    .title-content-box
-                        h1
-                            | Hello,
-                            br
-                            | I'm
-                            |
-                            span Esther
-                        p I'm a Programmer & Designer from the UK.
-                        p I like to make stuff.
-                .right
-                    .pink-box
-                        //icons
+            .container-fluid
+                // left hand text
+                .row
+                    .col-sm-1
+                    .vertical-center.col-sm-4
+                        div
+                            h1
+                                | Hello,
+                                br
+                                | I'm
+                                |
+                                span Esther
+                            p I'm a Programmer & Designer from the UK.
+                            p I like to make stuff.
+                    .col-sm-2
+                    div(class="col-sm" style="background-color:#CC7A98; min-height: 100vh")
+                    .col-sm-2
 
-        footer
+
+    footer
             p &copy; 2020 |
+                |
+                |
                 a(href="#") ESTR//
 

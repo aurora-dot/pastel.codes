@@ -3,10 +3,6 @@
   src: url("../fonts/TITLINGGOTHICFB-WIDE.OTF") format("opentype"); }
 
 @font-face {
-  font-family: 'Grifter';
-  src: url("../fonts/GRIFTER.otf") format("opentype"); }
-
-@font-face {
   font-family: 'Gilroy';
   src: url("../fonts/Gilroy-ExtraBold.otf") format("opentype"); }
 
@@ -41,9 +37,6 @@ header nav a span {
   font-size: 2rem;
   font-family: 'Titling Gothic FB';
   color: #CC7A98; }
-  header nav a span span {
-    font-size: 2.2rem;
-    font-family: 'Grifter'; }
 
 header nav #navbarSupportedContent23 ul {
   background-color: #CC7A98; }
@@ -173,5 +166,11 @@ footer {
   top: 11px;
   width: 0%;
   left: 50%; }
+
+@media only screen and (max-width: 575px) {
+  .aaa {
+    min-height: 47vh; }
+  .aaaa {
+    margin-top: 5vh; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,11 +4,11 @@ Documentation=https://pastel.codes.com
 After=network.target
 
 [Service]
+Environment=PORT=7000
 Environment=NODE_ENV=production
 StandardOutput=syslog
 SyslogIdentifier=pastel-codes
 User=web
-Group=web
 ExecStart=/home/web/pastel.codes/bin/www
 Restart=always
 

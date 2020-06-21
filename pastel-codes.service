@@ -1,0 +1,16 @@
+[Unit]
+Description=pastel.codes web service
+Documentation=https://pastel.codes.com
+After=network.target
+
+[Service]
+Environment=NODE_ENV=production
+StandardOutput=syslog
+SyslogIdentifier=pastel-codes
+User=web
+Group=web
+ExecStart=/home/web/pastel.codes/bin/www
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

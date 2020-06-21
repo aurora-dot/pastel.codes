@@ -1,5 +1,5 @@
 [Unit]
-Description=pastel.codes web service
+Description="pastel.codes web service"
 Documentation=https://pastel.codes.com
 After=network.target
 

@@ -78,11 +78,29 @@ footer {
     color: #CC7A98;
     text-decoration: underline #CC7A98; }
 
-.vertical-center {
+.center-v {
   min-height: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center; }
+
+.center-v-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
+
+.logos-container {
+  width: 4rem; }
+
+.logo {
+  width: auto;
+  height: 4rem;
+  fill: #002234;
+  margin-bottom: 2.5rem; }
+
+.logo-container {
+  cursor: pointer; }
 
 .ham {
   width: 30px;

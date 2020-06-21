@@ -92,13 +92,30 @@ footer
         text-decoration: underline $pink
 
 
-.vertical-center
+.center-v
     min-height: 100%  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh /* These two lines are counted as one :-)       */
 
     display: flex
     align-items: center
 
+.center-v-h
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 100vh
+
+.logos-container
+    width: 4rem
+
+.logo
+    width: auto
+    height: 4rem
+    fill: $black
+    margin-bottom: 2.5rem
+
+.logo-container
+    cursor: pointer
 
 // Nav stuff
 

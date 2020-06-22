@@ -109,7 +109,7 @@ footer {
   min-height: 100vh; }
 
 .logos-container {
-  width: 4rem; }
+  width: 3.5rem; }
 
 .logo {
   width: auto;
@@ -185,15 +185,17 @@ footer {
   left: 50%; }
 
 @media only screen and (max-width: 575px) {
+  .logo {
+    height: 5rem; }
+  .logos-container {
+    width: 5rem; }
   .aaa {
-    min-height: 47vh !important; }
+    min-height: 40vh !important; }
   .aaaa {
     margin-top: 5vh !important; }
   .ef {
     max-height: none !important;
-    min-height: none !important; }
-  .logo {
-    height: 4rem; } }
+    min-height: none !important; } }
 
 @media only screen and (max-height: 815px) {
   .ef {

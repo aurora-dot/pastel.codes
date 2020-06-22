@@ -9,13 +9,20 @@ var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
 
 var app = express();
+
 app.set('trust proxy', 'loopback,uniquelocal');
+app.disable('x-powered-by');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-app.use(logger('common'));
+if (app.get('env') == 'production') {
+    app.use(logger('common', { skip: function(req, res) { return res.statusCode < 400 }, stream: __dirname + '/../morgan.log' }));
+} else {
+    app.use(logger('dev'));
+}
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -26,8 +33,6 @@ app.use(sassMiddleware({
     sourceMap: true
 }));
 app.use(express.static(path.join(__dirname, 'public')));
-
-app.disable('x-powered-by');
 
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);

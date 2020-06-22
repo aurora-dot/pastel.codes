@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
 
 var app = express();
+app.set('trust proxy', 'loopback,uniquelocal');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

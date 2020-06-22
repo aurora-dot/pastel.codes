@@ -2,9 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
-var logger = require('morgan');
 var sassMiddleware = require('node-sass-middleware');
-var winston = require('./config/winston');
 
 var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
@@ -18,10 +16,37 @@ app.disable('x-powered-by');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+var logger = new winston.Logger({
+    transports: [
+        new winston.transports.File({
+            level: 'info',
+            filename: './logs/all-logs.log',
+            handleExceptions: true,
+            json: true,
+            maxsize: 5242880, //5MB
+            maxFiles: 5,
+            colorize: false
+        }),
+        new ston.transportswin.Console({
+            level: 'debug',
+            handleExceptions: true,
+            json: false,
+            colorize: true
+        })
+    ],
+    exitOnError: false
+});
+
+logger.stream = {
+    write: function(message, encoding){
+        logger.info(message);
+    }
+};
+
 if (process.env.NODE_ENV === 'production') {
-    app.use(logger('combined', { stream: winston.stream }));
+    app.use(require("morgan")("common", { "stream": logger.stream }));
 } else {
-    app.use(logger('dev'));
+    app.use(require(morgan)('dev'));
 }
 
 app.use(express.json());
@@ -48,8 +73,6 @@ app.use(function(err, req, res, next) {
     // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-    winston.error(`${err.status || 500} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
 
     // render the error page
     res.status(err.status || 500);

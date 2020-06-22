@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var sassMiddleware = require('node-sass-middleware');
+var winston = require('winston');
 
 var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');

@@ -1,10 +1,11 @@
 var winston = require('winston');
+var appRoot = require('app-root-path');
 
 var logger = new winston.createLogger({
     transports: [
         new winston.transports.File({
             level: 'info',
-            filename: './logs/all-logs.log',
+            filename: `${appRoot}/logs/app.log`,
             handleExceptions: true,
             json: true,
             maxsize: 5242880, //5MB

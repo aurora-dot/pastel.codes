@@ -1,6 +1,32 @@
 extends layout
 
+block nav-links
+    li.nav-item
+        a.nav-link(href='/')
+            span Home
+    li.nav-item
+        a.nav-link(href='#')
+            span About
+    li.nav-item
+        a.nav-link(href='#')
+            span CV
+    li.nav-item
+        a.nav-link(href='https://git.pastel.codes/Blankie')
+            span Projects
+    li.nav-item
+        a.nav-link(href='https://blog.pastel.codes')
+            span Blog
+    li.nav-item
+        a.nav-link(href='#')
+            span Contact
+
 block content
-    h1= message
-    h2= error.status
-    pre #{error.stack}
+    .center-v-h.ef
+        .error
+            h1= message
+            #error-code
+                h2= error.status
+    //pre #{error.stack}
+
+block scripts
+    script(src="/javascript/error.js")

@@ -25,6 +25,10 @@ body
 h1
     font-family: "Gilroy"
 
+h2
+    font-weight: bold
+    font-family: "Apercu Mono"
+
 p
     font-family: "Apercu Mono"
 
@@ -50,10 +54,12 @@ header
             ul
                 background-color: $pink
                 li
+                    transition: 0.5s
                     background-color: $pink
                     text-align: center
                     a
                         span
+                            transition: 0.2s
                             color: $black
                             font-family: "Apercu Mono"
 
@@ -95,6 +101,16 @@ footer
         color: $pink
         text-decoration: underline $pink
 
+.ef
+    max-height: 85vh
+    min-height: 85vh !important
+
+.error
+    text-align: center
+
+.pink-block
+    background-color: $pink
+    min-height: 100vh
 
 .center-v
     min-height: 100%  /* Fallback for browsers do NOT support vh unit */
@@ -114,7 +130,7 @@ footer
 
 .logo
     width: auto
-    height: 4rem
+    height: 3.5rem
     fill: $black
     margin-bottom: 2.5rem
 
@@ -190,6 +206,12 @@ footer
 
 @media only screen and (max-width: 575px)
     .aaa
-        min-height: 47vh
+        min-height: 47vh !important
     .aaaa
-        margin-top: 5vh
+        margin-top: 5vh !important
+    .ef
+        max-height: none !important
+        min-height: none !important
+
+    .logo
+        height: 4rem

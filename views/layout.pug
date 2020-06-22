@@ -3,11 +3,42 @@ html
     head
         meta(http-equiv="content-type" content="text/html; charset=UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1")
-        title= title
+
+        title ESTR // #{title}
+        meta(name="description" content=description)
+
         link(rel='stylesheet', href='/stylesheets/bootstrap.css')
         link(rel='stylesheet', href='/stylesheets/style.css')
     body
-        block content
+        article
+            header
+                // Navbar
+                nav.navbar
+                    // Navbar brand
+                    a.navbar-brand(href='/')
+                        span ESTR.
+                    // Collapse button
+                    button.navbar-toggler.ham-button(type='button' data-toggle='collapse' data-target='#navbarSupportedContent23' aria-controls='navbarSupportedContent23' aria-expanded='false' aria-label='Toggle navigation' style='cursor: pointer;')
+                        .ham
+                            span
+                            span
+                            span
+                            span
+                    // Collapsible content
+                    #navbarSupportedContent23.collapse.navbar-collapse
+                        // Links
+                        ul.navbar-nav.mr-auto
+                            block nav-links
+
+            main
+                block content
+
+            footer
+                p &copy; 2020 |
+                    |
+                    |
+                    a(href="/") ESTR//
+
         script(src="/javascript/jquery-3.5.1.min.js")
         script(src="/javascript/bootstrap.js")
         script(src="/javascript/nav.js")

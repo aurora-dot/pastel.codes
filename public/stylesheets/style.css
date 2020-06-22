@@ -21,6 +21,10 @@ body {
 h1 {
   font-family: "Gilroy"; }
 
+h2 {
+  font-weight: bold;
+  font-family: "Apercu Mono"; }
+
 p {
   font-family: "Apercu Mono"; }
 
@@ -41,9 +45,11 @@ header nav a span {
 header nav #navbarSupportedContent23 ul {
   background-color: #CC7A98; }
   header nav #navbarSupportedContent23 ul li {
+    transition: 0.5s;
     background-color: #CC7A98;
     text-align: center; }
     header nav #navbarSupportedContent23 ul li a span {
+      transition: 0.2s;
       color: #002234;
       font-family: "Apercu Mono"; }
   header nav #navbarSupportedContent23 ul li:hover {
@@ -79,6 +85,17 @@ footer {
     color: #CC7A98;
     text-decoration: underline #CC7A98; }
 
+.ef {
+  max-height: 85vh;
+  min-height: 85vh !important; }
+
+.error {
+  text-align: center; }
+
+.pink-block {
+  background-color: #CC7A98;
+  min-height: 100vh; }
+
 .center-v {
   min-height: 100%;
   min-height: 100vh;
@@ -96,7 +113,7 @@ footer {
 
 .logo {
   width: auto;
-  height: 4rem;
+  height: 3.5rem;
   fill: #002234;
   margin-bottom: 2.5rem; }
 
@@ -169,8 +186,13 @@ footer {
 
 @media only screen and (max-width: 575px) {
   .aaa {
-    min-height: 47vh; }
+    min-height: 47vh !important; }
   .aaaa {
-    margin-top: 5vh; } }
+    margin-top: 5vh !important; }
+  .ef {
+    max-height: none !important;
+    min-height: none !important; }
+  .logo {
+    height: 4rem; } }
 
 /*# sourceMappingURL=style.css.map */

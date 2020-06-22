@@ -195,4 +195,9 @@ footer {
   .logo {
     height: 4rem; } }
 
+@media only screen and (max-height: 815px) {
+  .ef {
+    max-height: none !important;
+    min-height: none !important; } }
+
 /*# sourceMappingURL=style.css.map */

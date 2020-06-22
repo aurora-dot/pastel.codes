@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var sassMiddleware = require('node-sass-middleware');
+var winston = require('./config/winston');
 
 var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
@@ -18,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(logger('common', { skip: function(req, res) { return res.statusCode < 400 }, stream: __dirname + 'morgan.log' }));
+    app.use(logger('combined', { stream: winston.stream }));
 } else {
     app.use(logger('dev'));
 }
@@ -47,6 +48,8 @@ app.use(function(err, req, res, next) {
     // set locals, only providing error in development
     res.locals.message = err.message;
     res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+    winston.error(`${err.status || 500} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
 
     // render the error page
     res.status(err.status || 500);

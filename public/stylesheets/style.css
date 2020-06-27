@@ -120,6 +120,33 @@ footer {
 .logo-container {
   cursor: pointer; }
 
+.about-pos p {
+  font-size: 3vh;
+  margin-bottom: 3vh; }
+
+.pr {
+  margin-bottom: 3vh;
+  margin-top: 1vh; }
+  .pr img {
+    width: 100%;
+    border: 2vh solid #CC7A98; }
+
+.pr-text a {
+  color: #CC7A98; }
+  .pr-text a h1 {
+    font-size: 4vh;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+.pr-text a:hover {
+  color: #CDE7B0; }
+
+.pr-text p {
+  font-size: 3vh; }
+
+.start {
+  margin-top: 3vh; }
+
 .ham {
   width: 30px;
   height: 20px;
@@ -164,7 +191,7 @@ footer {
 
 .ham.open span:nth-child(1) {
   top: 11px;
-  width: 0%;
+  width: 0;
   left: 50%; }
 
 .ham.open span:nth-child(2) {
@@ -179,10 +206,14 @@ footer {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-.ham.open span:nth-child(4)none {
+.ham.open span:nth-child(4) {
   top: 11px;
   width: 0;
   left: 50%; }
+
+@media only screen and (max-height: 421px) {
+  .pr-text {
+    margin-bottom: 5vh !important; } }
 
 @media only screen and (max-width: 575px) {
   .logo {

@@ -23,14 +23,14 @@ body
     color: $pink
 
 h1
-    font-family: "Gilroy"
+    font-family: "Gilroy", sans-serif
 
 h2
     font-weight: bold
-    font-family: "Apercu Mono"
+    font-family: "Apercu Mono", monospace
 
 p
-    font-family: "Apercu Mono"
+    font-family: "Apercu Mono", monospace
 
 a:hover
     color: $green
@@ -47,7 +47,7 @@ header
         a
             span
                 font-size: 2rem
-                font-family: 'Titling Gothic FB'
+                font-family: 'Titling Gothic FB', sans-serif
                 color: $pink
 
         #navbarSupportedContent23
@@ -61,7 +61,7 @@ header
                         span
                             transition: 0.2s
                             color: $black
-                            font-family: "Apercu Mono"
+                            font-family: "Apercu Mono", monospace
 
                 li:hover
                     background-color: $black
@@ -137,6 +137,35 @@ footer
 .logo-container
     cursor: pointer
 
+.about-pos
+    p
+        font-size: 3vh
+        margin-bottom: 3vh
+
+.pr
+    img
+        width: 100%
+        border: 2vh solid $pink
+    margin-bottom: 3vh
+    margin-top: 1vh
+
+
+.pr-text
+    a
+        color: $pink
+        h1
+
+            font-size: 4vh
+            margin-bottom: 0
+            padding-bottom: 0
+    a:hover
+        color: $green
+    p
+        font-size: 3vh
+
+.start
+    margin-top: 3vh
+
 // Nav stuff
 
 .ham
@@ -203,6 +232,9 @@ footer
     width: 0
     left: 50%
 
+@media only screen and (max-height: 421px)
+    .pr-text
+        margin-bottom: 5vh !important
 
 @media only screen and (max-width: 575px)
     .logo
@@ -224,3 +256,4 @@ footer
     .ef
         max-height: none !important
         min-height: 0 !important
+

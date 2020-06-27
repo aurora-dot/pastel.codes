@@ -6,6 +6,7 @@ After=network.target
 [Service]
 Environment=PORT=7000
 Environment=NODE_ENV=production
+Environment=GHOST_KEY=key
 StandardOutput=syslog
 SyslogIdentifier=pastel-codes
 User=web

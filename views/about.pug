@@ -21,7 +21,48 @@ block nav-links
             span Contact
 
 block content
-    .container-fluid
-        .row
-            .col(style="padding-right: 10px;padding-left: 10px;")
-                p In development
+    .container
+        .about-pos
+            .row
+                .col
+                    h1
+                        span Hello.
+                    p I’m Esther, a 19 year old student in 2nd year of university, who studies computer science & artificial intelligence.
+                    p In my free time, I create small projects to learn new skills and for them to function well for others to use; additionally, I do some graphic design / art as a hobby but has helped me create catching designs.
+                    p I focus on developing secure, well designed, efficient programs.
+            .row
+                .col.start
+                    h1
+                        span Projects.
+            .row
+
+                each val in project
+                    .col
+                        .pr
+                            a(href=val.url)
+                                if val.feature_image
+                                    img(src=val.feature_image)
+                                else
+                                    img(src="/images/logo.png")
+                        .pr-text
+                            a(href=val.url)
+                                h1 #{val.title}
+                            p #{val.excerpt}
+
+            .row
+                .col.start
+                    h1
+                        span Blog.
+            .row
+                each val in blog
+                    .col
+                        .pr
+                            a(href=val.url)
+                                if val.feature_image
+                                    img(src=val.feature_image)
+                                else
+                                    img(src="/images/logo.png")
+                        .pr-text
+                            a(href=val.url)
+                                h1 #{val.title}
+                            p #{val.excerpt}

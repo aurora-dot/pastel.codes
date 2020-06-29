@@ -1,0 +1,42 @@
+extends layout
+
+block head
+    script(src='https://hcaptcha.com/1/api.js' async='' defer='defer')
+
+block nav-links
+    li.nav-item.active
+        a.nav-link(href='/')
+            span Home
+    li.nav-item
+        a.nav-link(href='/about')
+            span About
+    li.nav-item
+        a.nav-link(href='#')
+            span CV
+    li.nav-item
+        a.nav-link(href='https://git.pastel.codes/Blankie')
+            span Projects
+    li.nav-item
+        a.nav-link(href='https://blog.pastel.codes')
+            span Blog
+    li.nav-item
+        a.nav-link(href='#')
+            span Contact
+
+block content
+    .container
+        form#contact-form(action='/contact' method='post' role='form')
+            .form-group
+                label(for='name') Name
+                input#name(name='name' class="form-control" type='text' placeholder='Your name' required='')
+            .form-group
+                label(for='email') Email
+                input#email(name='email' class="form-control" type='text' placeholder='Your email' required='')
+            .form-group
+                label(for='message') Message
+                textarea#message(name='message' class="form-control" placeholder='Enter your message here' rows='3' required='')
+            .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
+            button(type='submit' class="btn btn-primary") Submit
+            if message
+                #contact-error
+                    p=message

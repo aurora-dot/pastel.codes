@@ -7,6 +7,10 @@ After=network.target
 Environment=PORT=7000
 Environment=NODE_ENV=production
 Environment=GHOST_KEY=key
+Environment=HCAPTCHA_KEY=key
+Environment=TO_GMAIL_USER=user
+Environment=FROM_GMAIL_USER=user
+Environment=GMAIL_PASS=pass
 StandardOutput=syslog
 SyslogIdentifier=pastel-codes
 User=web

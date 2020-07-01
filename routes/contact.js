@@ -6,7 +6,7 @@ var router = express.Router();
 
 const contact_rate_limit = rate_limit({
     windowMs: 10 * 60 * 1000, // 10 minutes
-    max: 1, // limit each IP to 10 requests per windowMs
+    max: 5, // limit each IP to 10 requests per windowMs
     message: "Too many contact requests, try again later.",
     handler: function(req, res /*, next*/) {
         res.render('error', {title:"Error", message: "Too many contact requests, try again later.", error: {status: null}})

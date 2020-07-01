@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var mLogger = require('morgan');
 var sassMiddleware = require('node-sass-middleware');
 var logger = require('./config/winston');
+const helmet = require("helmet");
 
 var indexRouter = require('./routes/index');
 var aboutRouter = require('./routes/about');
@@ -25,6 +26,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(mLogger('dev'));
 }
 
+app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

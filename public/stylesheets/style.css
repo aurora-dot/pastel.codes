@@ -25,8 +25,11 @@ h2 {
   font-weight: bold;
   font-family: "Apercu Mono", monospace; }
 
-p {
+p, label, input, textarea {
   font-family: "Apercu Mono", monospace; }
+
+label {
+  font-size: 3vh; }
 
 a:hover {
   color: #CDE7B0; }
@@ -146,6 +149,27 @@ footer {
 
 .start {
   margin-top: 3vh; }
+
+#contact-message {
+  margin-top: 2vh; }
+  #contact-message p {
+    color: #CDE7B0; }
+    #contact-message p span {
+      text-decoration: underline #CDE7B0; }
+
+.h-captcha {
+  margin-bottom: 0.5vh; }
+
+.btn-primary {
+  font-family: "Apercu Mono";
+  background-color: #CC7A98;
+  color: #002234;
+  border-color: #002234; }
+
+.btn-primary:hover {
+  background-color: #002234;
+  color: #CC7A98;
+  border-color: #CC7A98; }
 
 .ham {
   width: 30px;

@@ -4,8 +4,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    const ghost_key = process.env.GHOST_KEY
-    const base_url = `https://blog.pastel.codes/ghost/api/v3/content/posts/?key=${ghost_key}`
+    const GHOST_KEY = process.env.GHOST_KEY
+    const base_url = `https://blog.pastel.codes/ghost/api/v3/content/posts/?key=${GHOST_KEY}`
 
     axios.all([
         axios.get(`${base_url}&limit=3`),
@@ -22,7 +22,6 @@ router.get('/', function(req, res, next) {
         .catch(error => {
             console.log(error);
         });
-    // https://blog.pastel.codes/ghost/api/v3/content/posts/?key=
 });
 
 module.exports = router;

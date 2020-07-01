@@ -4,7 +4,7 @@ block head
     script(src='https://hcaptcha.com/1/api.js' async='' defer='defer')
 
 block nav-links
-    li.nav-item.active
+    li.nav-item
         a.nav-link(href='/')
             span Home
     li.nav-item
@@ -19,24 +19,42 @@ block nav-links
     li.nav-item
         a.nav-link(href='https://blog.pastel.codes')
             span Blog
-    li.nav-item
+    li.nav-item.active
         a.nav-link(href='#')
             span Contact
 
 block content
     .container
-        form#contact-form(action='/contact' method='post' role='form')
-            .form-group
-                label(for='name') Name
-                input#name(name='name' class="form-control" type='text' placeholder='Your name' required='')
-            .form-group
-                label(for='email') Email
-                input#email(name='email' class="form-control" type='text' placeholder='Your email' required='')
-            .form-group
-                label(for='message') Message
-                textarea#message(name='message' class="form-control" placeholder='Enter your message here' rows='3' required='')
-            .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
-            button(type='submit' class="btn btn-primary") Submit
-            if message
-                #contact-error
-                    p=message
+        .row
+            .col
+                h1
+                    span Contact.
+        .row
+            .col
+                form#contact-form(action='/contact' method='post' role='form')
+                    .form-group
+                        label Name
+                        .form-row
+                            .col
+                                input#fname(name='firstname' class="form-control" type='text' placeholder='First name' required="true" pattern="^[\\w'\\-,.][^0-9_!¡?÷?¿/\\\\+=@#$%ˆ&*(){}|~<>;:[\\]]{2,}$")
+                            .col
+                                input#lname(name='lastname' class="form-control" type='text' placeholder='Last name' required="true" pattern="^[\\w'\\-,.][^0-9_!¡?÷?¿/\\\\+=@#$%ˆ&*(){}|~<>;:[\\]]{2,}$")
+
+                    .form-group
+                        label(for='email') Email
+                        input#email(name='email' class="form-control" type='text' placeholder='Email (example@email.com)' required='true' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")
+                    .form-group
+                        label(for='message') Message
+                        textarea#message(name='message' class="form-control" placeholder='Enter your message here' rows='3' required='true')
+                    .form-group
+                        .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
+                    button(type='submit' class="btn btn-primary") Submit
+
+        .row
+            .col
+                if message
+                    #contact-message
+                        p=message
+                        if success
+                            p=success
+                                span#email=email

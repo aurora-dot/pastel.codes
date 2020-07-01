@@ -22,10 +22,8 @@ const contact_rate_limit = rate_limit({
 
 // POST route from contact form
 router.post('/', contact_rate_limit, (req, res) => {
-    const TO_GMAIL_USER = process.env.TO_GMAIL_USER
-    const FROM_GMAIL_USER = process.env.FROM_GMAIL_USER
-    const GMAIL_PASS = process.env.GMAIL_PASS
-    console.log(GMAIL_PASS)
+    const TO_MAIL_USER = process.env.TO_MAIL_USER
+    const FROM_MAIL_USER = process.env.FROM_MAIL_USER
     const HCAPTCHA_KEY = process.env.HCAPTCHA_KEY
     const token = req.body["g-recaptcha-response"];
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
@@ -34,8 +32,8 @@ router.post('/', contact_rate_limit, (req, res) => {
         .then((data) => {
             if (data.success === true) {
                 const msg = {
-                    to: TO_GMAIL_USER,
-                    from: FROM_GMAIL_USER,
+                    to: TO_MAIL_USER,
+                    from: FROM_MAIL_USER,
                     subject: 'New message from contact form at pastel.codes',
                     text: `${req.body.firstname} ${req.body.lastname} (${req.body.email})\nsays: ${req.body.message}\n\nip: ${ip}`
                 };
@@ -46,7 +44,7 @@ router.post('/', contact_rate_limit, (req, res) => {
                         res.render('contact', {
                             message: "I will get back to you soon!",
                             success: "Make sure the email is from ",
-                            email: TO_GMAIL_USER
+                            email: TO_MAIL_USER
                         })
                     })
                     .catch(error => {

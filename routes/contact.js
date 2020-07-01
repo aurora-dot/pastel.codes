@@ -25,6 +25,7 @@ router.post('/', contact_rate_limit, (req, res) => {
     const TO_MAIL_USER = process.env.TO_MAIL_USER
     const FROM_MAIL_USER = process.env.FROM_MAIL_USER
     const HCAPTCHA_KEY = process.env.HCAPTCHA_KEY
+    const REPLY_TO_MAIL = process.env.REPLY_TO_MAIL
     const token = req.body["g-recaptcha-response"];
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
@@ -44,7 +45,7 @@ router.post('/', contact_rate_limit, (req, res) => {
                         res.render('contact', {
                             message: "I will get back to you soon!",
                             success: "Make sure the email is from ",
-                            email: TO_MAIL_USER
+                            email: REPLY_TO_MAIL
                         })
                     })
                     .catch(error => {

@@ -10,6 +10,7 @@ Environment=GHOST_KEY=key
 Environment=HCAPTCHA_KEY=key
 Environment=SENDGRID_API_KEY=key
 Environment=TO_MAIL_USER=user
+Environment=REPLY_TO_MAIL=user
 Environment=FROM_MAIL_USER=user
 StandardOutput=syslog
 SyslogIdentifier=pastel-codes

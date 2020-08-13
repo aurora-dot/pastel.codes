@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
     axios.all([
         axios.get(`${base_url}&limit=3`),
-        axios.get(`${base_url}&limit=3&filter=tag:Project`),
+        axios.get(`${base_url}&limit=3&filter=tag:project`),
     ])
         .then(axios.spread((response1, response2) => {
             var base = { title: 'About', description: 'Who??? What??? AAAAaaa, about me.'};

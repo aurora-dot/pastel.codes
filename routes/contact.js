@@ -43,6 +43,7 @@ router.post('/', contact_rate_limit, (req, res) => {
                     .send(msg)
                     .then(() => {
                         res.render('contact', {
+                            title: 'Contact',
                             message: "I will get back to you soon!",
                             success: "Make sure the email is from ",
                             email: REPLY_TO_MAIL
@@ -50,17 +51,17 @@ router.post('/', contact_rate_limit, (req, res) => {
                     })
                     .catch(error => {
                         console.log(error)
-                        res.render('error', {message: "Email did not send"})
+                        res.render('error', {title: 'Contact', message: "Email did not send"})
                     });
 
             } else {
-                //         // rerender with same info in the text box and show error message
-                res.render('contact', {message: "Captcha failed, try again"});
+                // rerender with same info in the text box and show error message
+                res.render('contact', {title: 'Contact', message: "Captcha failed, try again"});
             }
         })
         .catch(error => {
             console.log(error);
-            res.render('contact', {message: "Something wrong happened, try again later"});
+            res.render('contact', {title: 'Contact', message: "Something wrong happened, try again later"});
         });
 })
 

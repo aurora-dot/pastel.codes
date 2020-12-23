@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === 'production') {
     app.use(mLogger('dev'));
 }
 
-//app.use(helmet());
+app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

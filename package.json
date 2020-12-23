@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon ./bin/www -e js,pug"
+    "start": "npx nodemon ./bin/www -e js,pug,sass,css"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.0",

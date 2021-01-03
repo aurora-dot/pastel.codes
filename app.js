@@ -27,6 +27,21 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.use(helmet());
+app.use(
+    helmet.contentSecurityPolicy({
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "'unsafe-inline'", "''unsafe-eval'", "https://hcaptcha.com", "https://*.hcaptcha.com", "https://cdn.ravenjs.com/"],
+        imgSrc: ["'self'", "https://blog.pastel.codes", "https://static.ghost.org", "https://secure.gravatar.com"],
+        styleSrc: ["'self'", "'unsafe-inline'", "https://hcaptcha.com", "https://*.hcaptcha.com"],
+        fontSrc: ["'self'", "data:"],
+        frameSrc: ["https://hcaptcha.com", "https://*.hcaptcha.com"],
+        objectSrc: ["'none'"],
+        upgradeInsecureRequests: [],
+      },
+    })
+  );
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());

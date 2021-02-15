@@ -13,7 +13,7 @@ var contactRouter = require('./routes/contact');
 
 var app = express();
 
-app.set('trust proxy', 'loopback,uniquelocal');
+if (process.env.IS_DOCKER != 'true') app.set('trust proxy', 'loopback,uniquelocal');
 app.disable('x-powered-by');
 
 // view engine setup

@@ -1,7 +1,10 @@
 FROM node:15.8.0
 
-ENV PORT=
-ENV NODE_ENV=
+ARG port = 
+
+ENV PORT=${port}
+ENV IS_DOCKER=true
+ENV NODE_ENV=production
 ENV GHOST_KEY=
 ENV HCAPTCHA_KEY=
 ENV SENDGRID_API_KEY=
@@ -15,4 +18,4 @@ RUN npm install
 COPY . .
 
 CMD [ "npm", "start" ]
-EXPOSE 7000/tcp
+EXPOSE ${port}/tcp

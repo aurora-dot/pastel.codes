@@ -1,0 +1,22 @@
+[Unit]
+Description="pastel.codes web service"
+Documentation=https://pastel.codes.com
+After=network.target
+
+[Service]
+Environment=PORT=7000
+Environment=NODE_ENV=production
+Environment=GHOST_KEY=key
+Environment=HCAPTCHA_KEY=key
+Environment=SENDGRID_API_KEY=key
+Environment=TO_MAIL_USER=user
+Environment=REPLY_TO_MAIL=user
+Environment=FROM_MAIL_USER=user
+StandardOutput=syslog
+SyslogIdentifier=pastel-codes
+User=web
+ExecStart=/home/web/pastel.codes/bin/www
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

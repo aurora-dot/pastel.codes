@@ -1,0 +1,18 @@
+version: '3'
+services:
+  pastel_codes:
+    image: blankie/pastel-codes
+    restart: unless-stopped
+    container_name: pastel_codes
+    environment:
+      - PORT=7000
+      - GHOST_KEY=
+      - HCAPTCHA_KEY=
+      - SENDGRID_API_KEY=
+      - TO_MAIL_USER=
+      - REPLY_TO_MAIL=
+      - FROM_MAIL_USER=
+    ports: 
+      - 7000:7000
+    volumes: 
+      - /docker/pastel-codes/logs:/app/logs

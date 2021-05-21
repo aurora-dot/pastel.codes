@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var mLogger = require('morgan');
-var sassMiddleware = require('node-sass-middleware');
+var sass = require('node-sass');
 var logger = require('./config/winston');
 const helmet = require("helmet");
 
@@ -45,7 +45,7 @@ app.use(
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(sassMiddleware({
+app.use(sass.middleware({
     src: path.join(__dirname, 'public'),
     dest: path.join(__dirname, 'public'),
     indentedSyntax: true, // true = .sass and false = .scss

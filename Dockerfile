@@ -1,4 +1,4 @@
-FROM node:15.8.0
+FROM node:10.19.0
 
 ENV IS_DOCKER=true
 ENV NODE_ENV=production

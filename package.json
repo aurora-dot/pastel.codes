@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon ./bin/www -e js,pug,sass"
+    "start": "npx node-sass -r public/stylesheets/style.sass -o public/stylesheets && npx nodemon ./bin/www -e js,pug,sass"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.4",
@@ -18,7 +18,6 @@
     "helmet": "^4.6.0",
     "http-errors": "^1.8.0",
     "morgan": "^1.10.0",
-    "node-sass-middleware": "^0.11.0",
     "nodemailer": "^6.6.0",
     "pug": "^3.0.2",
     "winston": "^3.3.3"

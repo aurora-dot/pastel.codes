@@ -4,7 +4,9 @@
   "private": true,
   "watch": {
     "build-tail": {
-      "patterns": ["../views"],
+      "patterns": [
+        "views/"
+      ],
       "extensions": "pug"
     }
   },
@@ -16,6 +18,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.4",
+    "app-root-path": "^3.0.0",
     "autoprefixer": "^10.3.4",
     "axios": "^0.21.2",
     "cookie-parser": "^1.4.5",

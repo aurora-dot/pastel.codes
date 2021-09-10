@@ -2,16 +2,23 @@
   "name": "pastel.codes",
   "version": "0.0.0",
   "private": true,
+  "watch": {
+    "build-tail": {
+      "patterns": ["../views"],
+      "extensions": "pug"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx node-sass -r public/stylesheets/style.sass -o public/stylesheets && npx nodemon ./bin/www -e js,pug,sass"
+    "start": "npx nodemon ./bin/www -e js,pug,sass",
+    "watch-tail": "npm-watch",
+    "build-tail": "postcss src/tailwind.css -o public/stylesheets/style.css"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.4",
-    "app-root-path": "^3.0.0",
+    "autoprefixer": "^10.3.4",
     "axios": "^0.21.2",
     "cookie-parser": "^1.4.5",
-    "debug": "^4.3.1",
     "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",
     "hcaptcha": "^0.0.2",
@@ -19,7 +26,10 @@
     "http-errors": "^1.8.0",
     "morgan": "^1.10.0",
     "nodemailer": "^6.6.0",
+    "npm-watch": "^0.11.0",
+    "postcss-cli": "^8.3.1",
     "pug": "^3.0.2",
+    "tailwindcss": "^2.2.15",
     "winston": "^3.3.3"
   }
 }

@@ -29,12 +29,13 @@
     "morgan": "^1.10.0",
     "nodemailer": "^6.6.0",
     "pug": "^3.0.2",
+    "tailwind-hamburgers": "^1.1.1",
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "tailwindcss": "^2.2.15",
-    "postcss-cli": "^8.3.1",
+    "autoprefixer": "^10.3.4",
     "npm-watch": "^0.11.0",
-    "autoprefixer": "^10.3.4"
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
   }
 }

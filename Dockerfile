@@ -5,7 +5,7 @@ ENV NODE_ENV=production
 
 WORKDIR /app
 COPY ["package.json", "package-lock.json*", "./"]
-RUN npm install && npm install nodemon
+RUN npm install && npm build-tails && npm install nodemon
 COPY . .
 
 CMD [ "npm", "start" ]

@@ -36,15 +36,15 @@ html
             div(class="hidden" id="menu")
                 block nav-links
 
-        main.flex.flex-grow.items-stretch
-            div(class="flex flex-grow max-w-5xl mx-auto px-5")
+        main(class="flex flex-grow sm:items-stretch")
+            div(class="flex flex-col sm:flex-row flex-grow max-w-5xl mx-auto px-5")
                 block content
 
         footer.w-full.text-center.p-4.text-base
             p.font-mono &copy; 2020 |
                 |
                 |
-                a(href="/") EEEE.
+                a(href="/").underline EEEE.
 
         script(src="/javascript/jquery-3.5.1.min.js")
         script(src="/javascript/nav.js")

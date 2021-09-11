@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "watch": {
-    "build-tail": {
+    "build-tailwind": {
       "patterns": [
         "views/"
       ],
@@ -13,8 +13,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon ./bin/www -e js,pug,sass",
-    "watch-tail": "npm-watch",
-    "build-tail": "postcss src/tailwind.css -o public/stylesheets/style.css"
+    "watch-tailwind": "npx npm-watch",
+    "build-tailwind": "npx postcss src/tailwind.css -o public/stylesheets/style.css"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.4",

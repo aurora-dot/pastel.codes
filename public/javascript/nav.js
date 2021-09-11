@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $('.ham-button').on('click', function () {
-        $('.ham').toggleClass('open');
+    $('#menu').on('click', function () {
+        $('#menu').toggleClass('tham-active');
+        $('#menu-items').slideToggle(300);
     });
 });

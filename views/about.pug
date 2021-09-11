@@ -1,68 +1,62 @@
 extends layout
 
 block nav-links
-    li.nav-item
-        a.nav-link(href='/')
+    a(href='/')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Home
-    li.nav-item.active
-        a.nav-link(href='#')
+    a(href='#')
+        li(class="py-3 bg-black text-green hover:bg-pink hover:text-black transition duration-500 ease-in-out") 
             span About
-    li.nav-item
-        a.nav-link(href='#')
+    a(href='#')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span CV
-    li.nav-item
-        a.nav-link(href='https://github.com/aurora-dot')
+    a(href='https://github.com/aurora-dot')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Projects
-    li.nav-item
-        a.nav-link(href='https://blog.pastel.codes')
+    a(href='https://blog.pastel.codes')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Blog
-    li.nav-item
-        a.nav-link(href='/contact')
+    a(href='/contact')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Contact
 
 block content
-    .container
-        .about-pos
-            .row
-                .col
-                    h1
-                        span Hello.
-                    p I’m E, a 20 year old student in 3rd year of university, who studies computer science &amp; artificial intelligence.
-                    p In my free time, I create small projects to learn new skills to be helpful for others, recently i have been focusing on node.js.
-                    p Graphic design is also very fun and i enjoy making small projects to post on instagram, it helps with programming too which is neat
-            .row
-                .col.start
-                    h1
-                        span Projects.
-            .row
-
+    div.mt-5
+            div.text-lg
+                h1.font-sans.text-6xl.wavy.mb-10 Hello.
+                p.mb-5 I’m E, a 20 year old student in 3rd year of university, who studies computer science &amp; artificial intelligence, somehow achieved a 1:1 for the previous two years.
+                p.mb-5 In my free time, I create small projects to learn new skills to be helpful for others, recently i have been focusing on Django and tailwind for my job.
+                p.mb-5 Graphic design is also very fun and i enjoy making small projects to post on instagram, it has helped a lot with UX/UI design for applications.
+                p.mb-5 Currently I am working as a freelance developer for Bounce Technologies!
+            div
+                h1.font-sans.text-6xl.wavy.my-10 Projects.
+            
+            div
                 each val in project
-                    .col
-                        .pr
+                    div
+                        div
                             a(href=val.url)
                                 if val.feature_image
-                                    img(src=val.feature_image)
+                                    img(class="w-2/3" src=val.feature_image)
                                 else
                                     img(src="/images/logo.png")
-                        .pr-text
+                        div.mb-5
                             a(href=val.url)
-                                h1 #{val.title}
-                            p #{val.excerpt}
+                                h1.font-sans.text-3xl.mt-3.mb-3 #{val.title}
+                            p.text-lg #{val.excerpt}
 
-            .row
-                .col.start
-                    h1
-                        span Blog.
-            .row
+            div
+                h1.font-sans.text-6xl.wavy.my-10 Blog.
+            div
                 each val in blog
-                    .col
-                        .pr
+                    div
+                        div
                             a(href=val.url)
                                 if val.feature_image
-                                    img(src=val.feature_image)
+                                    img(class="w-2/3" src=val.feature_image)
                                 else
                                     img(src="/images/logo.png")
-                        .pr-text
+                        div.mb-5
                             a(href=val.url)
-                                h1 #{val.title}
-                            p #{val.excerpt}
+                                h1.font-sans.text-3xl.mt-3.mb-3 #{val.title}
+                            p.text-lg #{val.excerpt}

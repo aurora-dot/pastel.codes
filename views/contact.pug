@@ -4,57 +4,54 @@ block head
     script(src='https://hcaptcha.com/1/api.js' async='' defer='defer')
 
 block nav-links
-    li.nav-item
-        a.nav-link(href='/')
+    a(href='/')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Home
-    li.nav-item
-        a.nav-link(href='/about')
+    a(href='/about')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span About
-    li.nav-item
-        a.nav-link(href='#')
+    a(href='#')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span CV
-    li.nav-item
-        a.nav-link(href='https://github.com/aurora-dot')
+    a(href='https://github.com/aurora-dot')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Projects
-    li.nav-item
-        a.nav-link(href='https://blog.pastel.codes')
+    a(href='https://blog.pastel.codes')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Blog
-    li.nav-item.active
-        a.nav-link(href='#')
+    a(href='#')
+        li(class="py-3 bg-black text-green hover:bg-pink hover:text-black transition duration-500 ease-in-out") 
             span Contact
 
 block content
-    .container
-        .row
-            .col
-                h1
-                    span Contact.
-        .row
-            .col
-                form#contact-form(action='/contact' method='post' role='form')
-                    .form-group
-                        label Name
-                        .form-row
-                            .col
-                                input#fname(name='firstname' class="form-control" type='text' placeholder='First name' required="true" pattern="^[\\w'\\-,.][^0-9_!¡?÷?¿/\\\\+=@#$%ˆ&*(){}|~<>;:[\\]]{2,}$")
-                            .col
-                                input#lname(name='lastname' class="form-control" type='text' placeholder='Last name' required="true" pattern="^[\\w'\\-,.][^0-9_!¡?÷?¿/\\\\+=@#$%ˆ&*(){}|~<>;:[\\]]{2,}$")
+    div
+        div
+            h1.font-sans.text-6xl.wavy.mb-10 Contact.
 
-                    .form-group
-                        label(for='email') Email
-                        input#email(name='email' class="form-control" type='text' placeholder='Email (example@email.com)' required='true' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")
-                    .form-group
-                        label(for='message') Message
-                        textarea#message(name='message' class="form-control" placeholder='Enter your message here' rows='3' required='true')
-                    .form-group(style="margin-bottom: 0.5rem")
-                        .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
-                    button(type='submit' class="button-c") Submit
+        div
+            form#contact-form(action='/contact' method='post' role='form')
+                .form-group
+                    label Name
+                    .form-row
+                        .col
+                            input#fname(name='firstname' class="form-control" type='text' placeholder='First name' required="true")
+                        .col
+                            input#lname(name='lastname' class="form-control" type='text' placeholder='Last name' required="true")
 
-        .row
-            .col
-                if message
-                    #contact-message
-                        p=message
-                        if success
-                            p=success
-                                span#email=email
+                .form-group
+                    label(for='email') Email
+                    input#email(name='email' class="form-control" type='text' placeholder='Email (example@email.com)' required='true' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$")
+                .form-group
+                    label(for='message') Message
+                    textarea#message(name='message' class="form-control" placeholder='Enter your message here' rows='3' required='true')
+                .form-group(style="margin-bottom: 0.5rem")
+                    .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
+                button(type='submit' class="button-c") Submit
+
+        div
+            if message
+                #contact-message
+                    p=message
+                    if success
+                        p=success
+                            span#email=email

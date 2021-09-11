@@ -16,4 +16,9 @@
     src: url("../fonts/ApercuMono.ttf") format('truetype');
 }
 
+.wavy {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
 @tailwind utilities;

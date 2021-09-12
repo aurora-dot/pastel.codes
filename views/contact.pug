@@ -45,14 +45,15 @@ block content
                 div.mb-5
                     label(for='message') Message
                     textarea#message(class="w-full border-2 border-pink bg-black p-2 text-base" name='message' class="form-control" placeholder='Enter your message here' rows='3' required='true')
-                div.mb-5
+                div(class="mb-5 justify-center sm:justify-items-start flex sm:block")
                     .h-captcha(data-sitekey='49abba50-1813-4ab3-acbf-2a8bfff1f7c3')
-                button(type='submit' class="rounded-lg px-3 py-2 bg-pink text-black text-lg hover:ring-pink hover:ring-2 hover:bg-black hover:text-pink") Submit
+                button(type='submit' class="rounded-lg px-3 py-2 bg-pink text-black text-lg hover:ring-pink hover:ring-2 hover:bg-black hover:text-pink sm:w-auto w-full sm:text-base") Submit
 
         div
             if message
-                #contact-message
-                    p=message
-                    if success
-                        p=success
-                            span#email=email
+                div(class="mt-10 mb-6 sm:text-left text-center")
+                    #contact-message
+                        p=message
+                        if success
+                            p=success
+                                span#email.text-green=email

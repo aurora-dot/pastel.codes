@@ -33,30 +33,30 @@ block content
             
             div
                 each val in project
-                    div
-                        div
-                            a(href=val.url)
+                    div(class="mb-10 text-center sm:text-left")
+                        div.contents
+                            a(href=val.url).contents
                                 if val.feature_image
-                                    img(class="w-2/3" src=val.feature_image)
+                                    img(class="sm:w-2/3 mx-auto sm:mx-0" src=val.feature_image)
                                 else
                                     img(src="/images/logo.png")
-                        div.mb-5
+                        div.mt-2
                             a(href=val.url)
-                                h1.font-sans.text-3xl.mt-3.mb-3 #{val.title}
+                                span(class="font-sans text-2xl sm:text-3xl mt-3 mb-3") #{val.title}
                             p.text-lg #{val.excerpt}
 
             div
                 h1.font-sans.text-6xl.wavy.my-10 Blog.
             div
                 each val in blog
-                    div
-                        div
-                            a(href=val.url)
+                    div(class="mb-10 text-center sm:text-left")
+                        div.contents
+                            a(href=val.url).contents
                                 if val.feature_image
-                                    img(class="w-2/3" src=val.feature_image)
+                                    img(class="sm:w-2/3 mx-auto sm:mx-0" src=val.feature_image)
                                 else
                                     img(src="/images/logo.png")
-                        div.mb-5
+                        div.mt-2
                             a(href=val.url)
-                                h1.font-sans.text-3xl.mt-3.mb-3 #{val.title}
+                                span(class="font-sans text-2xl sm:text-3xl mt-3 mb-3") #{val.title}
                             p.text-lg #{val.excerpt}

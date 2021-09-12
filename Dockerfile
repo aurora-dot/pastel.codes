@@ -1,4 +1,4 @@
-FROM node:16.8.0
+FROM node:16-bullseye-slim
 
 ENV IS_DOCKER=true
 ENV NODE_ENV=production

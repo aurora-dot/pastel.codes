@@ -22,7 +22,7 @@
     "axios": "^0.21.3",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
-    "express-rate-limit": "^5.2.6",
+    "express-rate-limit": "^5.3.0",
     "hcaptcha": "^0.0.2",
     "helmet": "^4.6.0",
     "http-errors": "^1.8.0",

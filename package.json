@@ -17,9 +17,9 @@
     "build-tailwind": "npx postcss src/tailwind.css -o public/stylesheets/style.css"
   },
   "dependencies": {
-    "@sendgrid/mail": "^7.4.4",
+    "@sendgrid/mail": "^8.0.0",
     "app-root-path": "^3.0.0",
-    "axios": "^0.21.3",
+    "axios": "^1.6.3",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "express-rate-limit": "^5.2.6",

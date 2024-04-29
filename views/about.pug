@@ -1,70 +1,83 @@
 extends layout
 
 block nav-links
-    a(href='/')
-        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
-            span Home
-    a(href='#')
-        li(class="py-3 bg-black text-green hover:bg-pink hover:text-black transition duration-500 ease-in-out") 
-            span About
-    a(href='/obsidian/projects.html')
-        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
-            span Obsidian
-    a(href='https://github.com/aurora-dot')
-        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
-            span Projects
-    a(href='https://blog.pastel.codes')
-        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
-            span Blog
-    a(href='/contact')
-        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
-            span Contact
-
-
+  a(href='/')
+    li.py-3.bg-pink.text-black.transition.duration-500.ease-in-out(
+      class='hover:bg-black hover:text-pink'
+    )
+      span Home
+  a(href='#')
+    li.py-3.bg-black.text-green.transition.duration-500.ease-in-out(
+      class='hover:bg-pink hover:text-black'
+    ) 
+      span About
+  a(href='/obsidian/projects.html')
+    li.py-3.bg-pink.text-black.transition.duration-500.ease-in-out(
+      class='hover:bg-black hover:text-pink'
+    )
+      span Obsidian
+  a(href='https://github.com/aurora-dot')
+    li.py-3.bg-pink.text-black.transition.duration-500.ease-in-out(
+      class='hover:bg-black hover:text-pink'
+    )
+      span Projects
+  a(href='https://blog.pastel.codes')
+    li.py-3.bg-pink.text-black.transition.duration-500.ease-in-out(
+      class='hover:bg-black hover:text-pink'
+    )
+      span Blog
+  a(href='/contact')
+    li.py-3.bg-pink.text-black.transition.duration-500.ease-in-out(
+      class='hover:bg-black hover:text-pink'
+    )
+      span Contact
 
 block content
-    div.mt-5
-            div.text-lg
-                h1.font-sans.text-6xl.wavy.mb-10 Hello.
-                p.mb-5 I’m E, a 23-year-old full-stack developer with three years’ professional experience. I live in the UK.
-                p.mb-5 I’m currently working at Bounce Technologies, where I contribute to or lead various projects using a bunch of different languages and technologies.
-                p.mb-5 I also do UI/UX design and DevOps! I’m currently learning Go and adjusting to TypeScript.
-                p.mb-5 In my spare time I create digital art and make electronic music. I also like to discover and play experimental and artistic video games.
-                p.mb-5 Here are all of 
-                    a(class=" text-green" href="/obsidian/projects.html") my projects
-                    span  and my 
-                        a(class=" text-green" href="https://github.com/aurora-dot/") GitHub
-            if project
-                div
-                    h1.font-sans.text-6xl.wavy.my-10 Projects.
-                
-                div
-                    each val in project
-                        div(class="mb-10 text-center sm:text-left")
-                            div.contents
-                                a(href=val.url).contents
-                                    if val.feature_image
-                                        img(class="sm:w-2/3 mx-auto sm:mx-0" src=val.feature_image)
-                                    else
-                                        img(src="/images/logo.png")
-                            div.mt-2
-                                a(href=val.url)
-                                    span(class="font-sans text-2xl sm:text-3xl mt-3 mb-3") #{val.title}
-                                p.text-lg #{val.excerpt}
+  .mt-5
+    .text-lg
+      h1.font-sans.text-6xl.wavy.mb-10 Hello.
+      p.mb-5 I’m E, a 22-year-old full-stack developer with three years’ professional experience. I live in the UK.
+      p.mb-5 I’m currently working at Bounce Technologies, where I contribute to or lead various projects using a bunch of different languages and technologies.
+      p.mb-5 I also do UI/UX design and DevOps! I’m currently learning Go and adjusting to TypeScript.
+      p.mb-5 In my spare time I create digital art and make electronic music. I also like to discover and play experimental and artistic video games.
+      p.mb-5 Here are all of!{ ' ' }
+        |
+        a.text-green(href='/obsidian/projects.html') my projects
+        span !{ ' ' } and my !{ ' ' }
+          |
+          a.text-green(href='https://github.com/aurora-dot/') GitHub
+        | .
+    if project
+      div
+        h1.font-sans.text-6xl.wavy.my-10 Projects.
 
-            if blog
-                div
-                    h1.font-sans.text-6xl.wavy.my-10 Blog.
-                div
-                    each val in blog
-                        div(class="mb-10 text-center sm:text-left")
-                            div.contents
-                                a(href=val.url).contents
-                                    if val.feature_image
-                                        img(class="sm:w-2/3 mx-auto sm:mx-0" src=val.feature_image)
-                                    else
-                                        img(src="/images/logo.png")
-                            div.mt-2
-                                a(href=val.url)
-                                    span(class="font-sans text-2xl sm:text-3xl mt-3 mb-3") #{val.title}
-                                p.text-lg #{val.excerpt}
+      div
+        each val in project
+          .mb-10.text-center(class='sm:text-left')
+            .contents
+              a.contents(href=val.url)
+                if val.feature_image
+                  img.mx-auto(class='sm:w-2/3 sm:mx-0', src=val.feature_image)
+                else
+                  img(src='/images/logo.png')
+            .mt-2
+              a(href=val.url)
+                span.font-sans.text-2xl.mt-3.mb-3(class='sm:text-3xl') #{ val.title }
+              p.text-lg #{ val.excerpt }
+
+    if blog
+      div
+        h1.font-sans.text-6xl.wavy.my-10 Blog.
+      div
+        each val in blog
+          .mb-10.text-center(class='sm:text-left')
+            .contents
+              a.contents(href=val.url)
+                if val.feature_image
+                  img.mx-auto(class='sm:w-2/3 sm:mx-0', src=val.feature_image)
+                else
+                  img(src='/images/logo.png')
+            .mt-2
+              a(href=val.url)
+                span.font-sans.text-2xl.mt-3.mb-3(class='sm:text-3xl') #{ val.title }
+              p.text-lg #{ val.excerpt }

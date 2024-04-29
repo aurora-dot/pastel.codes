@@ -3,293 +3,289 @@ $black: #002234
 $green: #CDE7B0
 
 @font-face
-    font-family: 'Titling Gothic FB'
-    src: url("../fonts/TITLINGGOTHICFB-WIDE.OTF") format('opentype')
+  font-family: 'Titling Gothic FB'
+  src: url("../fonts/TITLINGGOTHICFB-WIDE.OTF") format('opentype')
 
 @font-face
-    font-family: 'Gilroy'
-    src: url("../fonts/Gilroy-ExtraBold.otf") format('opentype')
+  font-family: 'Gilroy'
+  src: url("../fonts/Gilroy-ExtraBold.otf") format('opentype')
 
 @font-face
-    font-family: 'Apercu Mono'
-    src: url("../fonts/ApercuMono.ttf") format('truetype')
+  font-family: 'Apercu Mono'
+  src: url("../fonts/ApercuMono.ttf") format('truetype')
 
 html, body
-    width: 100%
-    height: 100%
+  width: 100%
+  height: 100%
 
 body
-    background-color: $black
-    color: $pink
+  background-color: $black
+  color: $pink
 
 h1
-    font-family: "Gilroy", sans-serif
+  font-family: "Gilroy", sans-serif
 
 h2
-    font-weight: bold
-    font-family: "Apercu Mono", monospace
+  font-weight: bold
+  font-family: "Apercu Mono", monospace
 
 p, label, input, textarea
-    font-family: "Apercu Mono", monospace
+  font-family: "Apercu Mono", monospace
 
 label
-    font-size: 3vh
+  font-size: 3vh
 
 a:hover
-    color: $green
+  color: $green
 
 article
-    min-height: 100%
-    display: grid
-    grid-template-rows: auto 1fr auto
-    grid-template-columns: 100%
+  min-height: 100%
+  display: grid
+  grid-template-rows: auto 1fr auto
+  grid-template-columns: 100%
 
 header
-    nav
-        a
-            span
-                font-size: 2rem
-                font-family: 'Titling Gothic FB', sans-serif
-                color: $pink
+  nav
+    a
+      span
+        font-size: 2rem
+        font-family: 'Titling Gothic FB', sans-serif
+        color: $pink
 
         #navbarSupportedContent23
-            ul
-                background-color: $pink
-                li
-                    transition: 0.5s
-                    background-color: $pink
-                    text-align: center
-                    a
-                        span
-                            transition: 0.2s
-                            color: $black
-                            font-family: "Apercu Mono", monospace
+          ul
+            background-color: $pink
+            li
+              transition: 0.5s
+              background-color: $pink
+              text-align: center
+              a
+                span
+                  transition: 0.2s
+                  color: $black
+                  font-family: "Apercu Mono", monospace
 
                 li:hover
-                    background-color: $black
-                    a
-                        span
-                            color: $pink
+                  background-color: $black
+                  a
+                    span
+                      color: $pink
 
                 .active
-                    background-color: $black
-                    a
-                        span
-                            color: $green
+                  background-color: $black
+                  a
+                    span
+                      color: $green
 
                 .active:hover
-                    background-color: $pink
-                    a
-                        span
-                            color: $black
+                  background-color: $pink
+                  a
+                    span
+                      color: $black
 main
-    padding: 0.5rem
-    h1
-        padding-bottom: 1rem
-        font-size: 4.5rem
-        span
-            text-decoration: underline $pink
-            text-decoration-style: wavy
+  padding: 0.5rem
+  h1
+    padding-bottom: 1rem
+    font-size: 4.5rem
+    span
+      text-decoration: underline $pink
+      text-decoration-style: wavy
     p
-        font-size: 2rem
-        margin-bottom: 5px
-
+      font-size: 2rem
+      margin-bottom: 5px
 
 footer
-    text-align: center
-    font-size: 1rem
-    padding: 0.5rem
-    a
-        color: $pink
-        text-decoration: underline $pink
+  text-align: center
+  font-size: 1rem
+  padding: 0.5rem
+  a
+    color: $pink
+    text-decoration: underline $pink
 
 .ef
-    max-height: 85vh
-    min-height: 85vh !important
+  max-height: 85vh
+  min-height: 85vh !important
 
 .error
-    text-align: center
+  text-align: center
 
 .pink-block
-    background-color: $pink
-    min-height: 100vh
+  background-color: $pink
+  min-height: 100vh
 
 .center-v
-    min-height: 100%  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh /* These two lines are counted as one :-)       */
+  min-height: 100% /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh /* These two lines are counted as one :-) */
 
-    display: flex
-    align-items: center
+  display: flex
+  align-items: center
 
 .center-v-h
-    display: flex
-    justify-content: center
-    align-items: center
-    min-height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  min-height: 100vh
 
 .logos-container
-    width: 3.5rem
+  width: 3.5rem
 
 .logo
-    width: auto
-    height: 3.5rem
-    fill: $black
-    margin-bottom: 2.5rem
+  width: auto
+  height: 3.5rem
+  fill: $black
+  margin-bottom: 2.5rem
 
 .logo-container
-    cursor: pointer
+  cursor: pointer
 
 .about-pos
-    p
-        font-size: 3vh
-        margin-bottom: 3vh
+  p
+    font-size: 3vh
+    margin-bottom: 3vh
 
 .pr
-    img
-        width: 100%
-        border: 2vh solid $pink
+  img
+    width: 100%
+    border: 2vh solid $pink
     margin-bottom: 3vh
     margin-top: 1vh
 
-
 .pr-text
-    a
-        color: $pink
-        h1
+  a
+    color: $pink
+    h1
 
-            font-size: 4vh
-            margin-bottom: 0
-            padding-bottom: 0
+      font-size: 4vh
+      margin-bottom: 0
+      padding-bottom: 0
     a:hover
-        color: $green
+      color: $green
     p
-        font-size: 3vh
+      font-size: 3vh
 
 .start
-    margin-top: 3vh
+  margin-top: 3vh
 
 #contact-message
-    margin-top: 2vh
-    p
-        color: $green
-        span
-            text-decoration: underline $green
+  margin-top: 2vh
+  p
+    color: $green
+    span
+      text-decoration: underline $green
 
 .h-captcha
-    margin-bottom: 0.5vh
+  margin-bottom: 0.5vh
 
 .button-c
-    display: inline-block
-    font-weight: 400
-    color: #212529
-    text-align: center
-    vertical-align: middle
-    cursor: pointer
-    user-select: none
-    border: 1px solid $black
-    padding: 0.375rem 0.75rem
-    font-size: 1rem
-    line-height: 1.5
-    border-radius: 0.25rem
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
-    font-family: "Apercu Mono"
+  display: inline-block
+  font-weight: 400
+  color: #212529
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  user-select: none
+  border: 1px solid $black
+  padding: 0.375rem 0.75rem
+  font-size: 1rem
+  line-height: 1.5
+  border-radius: 0.25rem
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
+  font-family: "Apercu Mono"
 
 .button-c
-    background-color: $pink
+  background-color: $pink
 
 .button-c:hover
-    background-color: $black
-    color: $pink
-    border-color: $pink
+  background-color: $black
+  color: $pink
+  border-color: $pink
 
 // Nav stuff
 
 .ham
-    width: 30px
-    height: 20px
-    position: relative
-    margin: 0px
-    -webkit-transform: rotate(0deg)
-    -moz-transform: rotate(0deg)
-    -o-transform: rotate(0deg)
-    transform: rotate(0deg)
-    -webkit-transition: .5s ease-in-out
-    -moz-transition: .5s ease-in-out
-    -o-transition: .5s ease-in-out
-    transition: .5s ease-in-out
-    cursor: pointer
+  width: 30px
+  height: 20px
+  position: relative
+  margin: 0px
+  -webkit-transform: rotate(0deg)
+  -moz-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: .5s ease-in-out
+  -moz-transition: .5s ease-in-out
+  -o-transition: .5s ease-in-out
+  transition: .5s ease-in-out
+  cursor: pointer
 
 .ham span
-    display: block
-    position: absolute
-    height: 3px
-    width: 100%
-    border-radius: 9px
-    opacity: 1
-    left: 0
-    -webkit-transform: rotate(0deg)
-    -moz-transform: rotate(0deg)
-    -o-transform: rotate(0deg)
-    transform: rotate(0deg)
-    -webkit-transition: .25s ease-in-out
-    -moz-transition: .25s ease-in-out
-    -o-transition: .25s ease-in-out
-    transition: .25s ease-in-out
-    background: $pink
+  display: block
+  position: absolute
+  height: 3px
+  width: 100%
+  border-radius: 9px
+  opacity: 1
+  left: 0
+  -webkit-transform: rotate(0deg)
+  -moz-transform: rotate(0deg)
+  -o-transform: rotate(0deg)
+  transform: rotate(0deg)
+  -webkit-transition: .25s ease-in-out
+  -moz-transition: .25s ease-in-out
+  -o-transition: .25s ease-in-out
+  transition: .25s ease-in-out
+  background: $pink
 
 .ham span:nth-child(1)
-    top: 0
+  top: 0
 
 .ham span:nth-child(2), .ham span:nth-child(3)
-    top: 10px
+  top: 10px
 
 .ham span:nth-child(4)
-    top: 20px
+  top: 20px
 
 .ham.open span:nth-child(1)
-    top: 11px
-    width: 0
-    left: 50%
+  top: 11px
+  width: 0
+  left: 50%
 
 .ham.open span:nth-child(2)
-    -webkit-transform: rotate(45deg)
-    -moz-transform: rotate(45deg)
-    -o-transform: rotate(45deg)
-    transform: rotate(45deg)
+  -webkit-transform: rotate(45deg)
+  -moz-transform: rotate(45deg)
+  -o-transform: rotate(45deg)
+  transform: rotate(45deg)
 
 .ham.open span:nth-child(3)
-    -webkit-transform: rotate(-45deg)
-    -moz-transform: rotate(-45deg)
-    -o-transform: rotate(-45deg)
-    transform: rotate(-45deg)
+  -webkit-transform: rotate(-45deg)
+  -moz-transform: rotate(-45deg)
+  -o-transform: rotate(-45deg)
+  transform: rotate(-45deg)
 
 .ham.open span:nth-child(4)
-    top: 11px
-    width: 0
-    left: 50%
+  top: 11px
+  width: 0
+  left: 50%
 
 @media only screen and (max-height: 421px)
-    .pr-text
-        margin-bottom: 5vh !important
+  .pr-text
+    margin-bottom: 5vh !important
 
 @media only screen and (max-width: 575px)
-    .logo
-        height: 5rem
+  .logo
+    height: 5rem
     .logos-container
-        width: 5rem
+      width: 5rem
     .aaa
-        min-height: 40vh !important
+      min-height: 40vh !important
     .aaaa
-        margin-top: 5vh !important
+      margin-top: 5vh !important
     .ef
-        max-height: none !important
-        min-height: 0 !important
+      max-height: none !important
+      min-height: 0 !important
     .ff
-        min-height: 82.8vh !important
-
+      min-height: 82.8vh !important
 
 @media only screen and (max-height: 815px)
-    .ef
-        max-height: none !important
-        min-height: 0 !important
-
+  .ef
+    max-height: none !important
+    min-height: 0 !important

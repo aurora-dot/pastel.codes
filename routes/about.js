@@ -1,9 +1,9 @@
-var express = require("express");
-const axios = require("axios");
+var express = require('express');
+const axios = require('axios');
 var router = express.Router();
 
 /* GET home page. */
-router.get("/", function (req, res, next) {
+router.get('/', function (req, res, _next) {
   const GHOST_KEY = process.env.GHOST_KEY;
   const base_url = `https://blog.pastel.codes/ghost/api/v3/content/posts/?key=${GHOST_KEY}`;
 
@@ -15,8 +15,8 @@ router.get("/", function (req, res, next) {
     .then(
       axios.spread((response1, response2) => {
         var base = {
-          title: "About",
-          description: "Who??? What??? AAAAaaa, about me.",
+          title: 'About',
+          description: 'Who??? What??? AAAAaaa, about me.',
         };
         var blog = JSON.parse(
           JSON.stringify(response1.data).split('"posts":').join('"blog":')
@@ -26,17 +26,17 @@ router.get("/", function (req, res, next) {
         );
         var out = Object.assign(base, blog, projects);
 
-        res.render("about", out);
+        res.render('about', out);
       })
     )
     .catch((error) => {
       var base = {
-        title: "About",
-        description: "Who??? What??? AAAAaaa, about me.",
+        title: 'About',
+        description: 'Who??? What??? AAAAaaa, about me.',
       };
       var out = Object.assign(base);
-      console.log("error", error);
-      res.render("about", out);
+      console.log('error', error);
+      res.render('about', out);
     });
 });
 

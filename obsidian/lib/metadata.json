@@ -1,0 +1,1471 @@
+{
+  "vaultName": "Work",
+  "lastExport": 1714398427489,
+  "pluginVersion": "1.8.01",
+  "validBodyClasses": "publish css-settings-manager native-scrollbars theme-light show-inline-title",
+  "useCustomHeadContent": false,
+  "useCustomFavicon": false,
+  "files": [
+    "00 Tags/tag-admin.md",
+    "00 Tags/tag-ai.md",
+    "00 Tags/tag-api.md",
+    "00 Tags/tag-application-ui.md",
+    "00 Tags/tag-art.md",
+    "00 Tags/tag-automated-email.md",
+    "00 Tags/tag-backend.md",
+    "00 Tags/tag-bash.md",
+    "00 Tags/tag-blender.md",
+    "00 Tags/tag-bootstrap.md",
+    "00 Tags/tag-bot.md",
+    "00 Tags/tag-browser-automation.md",
+    "00 Tags/tag-browser-extension.md",
+    "00 Tags/tag-character-design.md",
+    "00 Tags/tag-chrome-extension.md",
+    "00 Tags/tag-cicd.md",
+    "00 Tags/tag-concurrency.md",
+    "00 Tags/tag-css.md",
+    "00 Tags/tag-cybersecurity.md",
+    "00 Tags/tag-data-management.md",
+    "00 Tags/tag-data-science.md",
+    "00 Tags/tag-decryption.md",
+    "00 Tags/tag-devops.md",
+    "00 Tags/tag-diffing.md",
+    "00 Tags/tag-discord.md",
+    "00 Tags/tag-django.md",
+    "00 Tags/tag-django-rest-framework.md",
+    "00 Tags/tag-docker.md",
+    "00 Tags/tag-domain-name-management.md",
+    "00 Tags/tag-DSA.md",
+    "00 Tags/tag-express.md",
+    "00 Tags/tag-firefox-extension.md",
+    "00 Tags/tag-frontend.md",
+    "00 Tags/tag-fullstack.md",
+    "00 Tags/tag-game-design.md",
+    "00 Tags/tag-game-dev.md",
+    "00 Tags/tag-gamejam.md",
+    "00 Tags/tag-gdb.md",
+    "00 Tags/tag-genetic-algorithm.md",
+    "00 Tags/tag-github-actions.md",
+    "00 Tags/tag-github-contributor.md",
+    "00 Tags/tag-go.md",
+    "00 Tags/tag-godot.md",
+    "00 Tags/tag-hackathon.md",
+    "00 Tags/tag-heroku.md",
+    "00 Tags/tag-hosting.md",
+    "00 Tags/tag-html.md",
+    "00 Tags/tag-image-gen.md",
+    "00 Tags/tag-irc.md",
+    "00 Tags/tag-java.md",
+    "00 Tags/tag-js.md",
+    "00 Tags/tag-jupyter-notebook.md",
+    "00 Tags/tag-LaTeX.md",
+    "00 Tags/tag-level-design.md",
+    "00 Tags/tag-linux.md",
+    "00 Tags/tag-low-level-debugging.md",
+    "00 Tags/tag-machine-learning.md",
+    "00 Tags/tag-matplotlib.md",
+    "00 Tags/tag-music.md",
+    "00 Tags/tag-myers-diff-algo.md",
+    "00 Tags/tag-network-traffic-capture.md",
+    "00 Tags/tag-networking.md",
+    "00 Tags/tag-neural-networks.md",
+    "00 Tags/tag-nextjs.md",
+    "00 Tags/tag-nltk.md",
+    "00 Tags/tag-nodejs.md",
+    "00 Tags/tag-npm.md",
+    "00 Tags/tag-numpy.md",
+    "00 Tags/tag-oauth.md",
+    "00 Tags/tag-oop.md",
+    "00 Tags/tag-openai.md",
+    "00 Tags/tag-pandas.md",
+    "00 Tags/tag-parcel.md",
+    "00 Tags/tag-php.md",
+    "00 Tags/tag-platformer.md",
+    "00 Tags/tag-postgres.md",
+    "00 Tags/tag-prod.md",
+    "00 Tags/tag-protocol.md",
+    "00 Tags/tag-proxy.md",
+    "00 Tags/tag-pug.md",
+    "00 Tags/tag-puppeteer.md",
+    "00 Tags/tag-pwndbg.md",
+    "00 Tags/tag-pygame.md",
+    "00 Tags/tag-python.md",
+    "00 Tags/tag-pytorch.md",
+    "00 Tags/tag-react.md",
+    "00 Tags/tag-realtime.md",
+    "00 Tags/tag-redis.md",
+    "00 Tags/tag-research.md",
+    "00 Tags/tag-reverse-engineering.md",
+    "00 Tags/tag-rust.md",
+    "00 Tags/tag-scikit.md",
+    "00 Tags/tag-scraping.md",
+    "00 Tags/tag-selenium.md",
+    "00 Tags/tag-server-management.md",
+    "00 Tags/tag-serverless.md",
+    "00 Tags/tag-slack-bot.md",
+    "00 Tags/tag-software-engineering.md",
+    "00 Tags/tag-sql.md",
+    "00 Tags/tag-sqlite.md",
+    "00 Tags/tag-ssl.md",
+    "00 Tags/tag-supabase.md",
+    "00 Tags/tag-svelte.md",
+    "00 Tags/tag-sveltekit.md",
+    "00 Tags/tag-tailwindcss.md",
+    "00 Tags/tag-TDD.md",
+    "00 Tags/tag-tensorflow.md",
+    "00 Tags/tag-threejs.md",
+    "00 Tags/tag-turbo-hotwired.md",
+    "00 Tags/tag-two-factor-auth.md",
+    "00 Tags/tag-typescript.md",
+    "00 Tags/tag-unity.md",
+    "00 Tags/tag-vb-net.md",
+    "00 Tags/tag-visual-novel.md",
+    "00 Tags/tag-vite.md",
+    "00 Tags/tag-webdesign.md",
+    "00 Tags/tag-webdev.md",
+    "00 Tags/tag-wip.md",
+    "00 Tags/tag-writing.md",
+    "00 Tags/tag-x3d.md",
+    "01 Projects/00 School/Personal/Dumpmon grabber.md",
+    "01 Projects/00 School/Personal/IRC Bot.md",
+    "01 Projects/00 School/Personal/Personal.md",
+    "01 Projects/00 School/Personal/Raspberry Pi Setup Scripts.md",
+    "01 Projects/00 School/School.md",
+    "01 Projects/01 College/Assignments/Assignments.md",
+    "01 Projects/01 College/Assignments/ICT Site.md",
+    "01 Projects/01 College/Assignments/IRC-CaLS.md",
+    "01 Projects/01 College/Personal/concatBot.md",
+    "01 Projects/01 College/Personal/Cyber Discovery Finalist Challenge.md",
+    "01 Projects/01 College/Personal/Hexbot.md",
+    "01 Projects/01 College/Personal/Personal.md",
+    "01 Projects/01 College/College.md",
+    "01 Projects/02 University/Assignments/AIAB.md",
+    "01 Projects/02 University/Assignments/Assignments.md",
+    "01 Projects/02 University/Assignments/Checkers.md",
+    "01 Projects/02 University/Assignments/Clue.md",
+    "01 Projects/02 University/Assignments/Computer Vision.md",
+    "01 Projects/02 University/Assignments/Database design and sql.md",
+    "01 Projects/02 University/Assignments/DSA Programming Project.md",
+    "01 Projects/02 University/Assignments/Individual Project.md",
+    "01 Projects/02 University/Assignments/Lovejoys Antique Evaluations.md",
+    "01 Projects/02 University/Assignments/Machine learning.md",
+    "01 Projects/02 University/Assignments/Minesweeper.md",
+    "01 Projects/02 University/Assignments/Natural Language Engineering.md",
+    "01 Projects/02 University/Assignments/Web 3D.md",
+    "01 Projects/02 University/Personal/Bandcamp Web Downloader.md",
+    "01 Projects/02 University/Personal/Blaseball Peanut Clicker.md",
+    "01 Projects/02 University/Personal/Ghost Terminal Dracula theme.md",
+    "01 Projects/02 University/Personal/Hacksussex 2019.md",
+    "01 Projects/02 University/Personal/Hosting with VPS.md",
+    "01 Projects/02 University/Personal/i3 Config.md",
+    "01 Projects/02 University/Personal/litebin.md",
+    "01 Projects/02 University/Personal/Markdown dracula theme.md",
+    "01 Projects/02 University/Personal/MDView.md",
+    "01 Projects/02 University/Personal/nixos config.md",
+    "01 Projects/02 University/Personal/pastel.codes.md",
+    "01 Projects/02 University/Personal/Personal.md",
+    "01 Projects/02 University/Personal/TTTTT.uk.md",
+    "01 Projects/02 University/Personal/University Note Tools.md",
+    "01 Projects/02 University/University.md",
+    "01 Projects/03 Work/Personal/FlipAnalytica - Hacksussex 2023.md",
+    "01 Projects/03 Work/Personal/hiddennet.works.md",
+    "01 Projects/03 Work/Personal/Managing a minecraft server.md",
+    "01 Projects/03 Work/Personal/Personal.md",
+    "01 Projects/03 Work/Personal/Watcher.md",
+    "01 Projects/03 Work/Projects/Heythere/Heythere Extensions.md",
+    "01 Projects/03 Work/Projects/Heythere/Heythere Web.md",
+    "01 Projects/03 Work/Projects/BizarrePG.md",
+    "01 Projects/03 Work/Projects/Changewatch.md",
+    "01 Projects/03 Work/Projects/N0RT.md",
+    "01 Projects/03 Work/Projects/Projects.md",
+    "01 Projects/03 Work/Projects/The Loop..md",
+    "01 Projects/03 Work/Work.md",
+    "Projects.md",
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
+    "lib/fonts/94f2f163d4b698242fef.otf",
+    "lib/fonts/72505e6a122c6acd5471.woff2",
+    "lib/fonts/2d5198822ab091ce4305.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2",
+    "lib/fonts/b5f0f109bc88052d4000.woff2",
+    "lib/fonts/cbe0ae49c52c920fd563.woff2",
+    "lib/fonts/535a6cf662596b3bd6a6.woff2",
+    "lib/fonts/70cc7ff27245e82ad414.ttf",
+    "lib/fonts/454577c22304619db035.ttf",
+    "lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
+  ],
+  "fileInfo": {
+    "00 Tags/tag-admin.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-admin.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-ai.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-ai.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-api.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-api.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-application-ui.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-application-ui.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-art.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-art.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-automated-email.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-automated-email.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-backend.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-backend.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-bash.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-bash.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-blender.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-blender.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-bootstrap.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-bootstrap.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-bot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-bot.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-browser-automation.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-browser-automation.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-browser-extension.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-browser-extension.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-character-design.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-character-design.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-chrome-extension.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-chrome-extension.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-cicd.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-cicd.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-concurrency.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-concurrency.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-css.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-css.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-cybersecurity.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-cybersecurity.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-data-management.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-data-management.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-data-science.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-data-science.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-decryption.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-decryption.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-devops.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-devops.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-diffing.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-diffing.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-discord.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-discord.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-django.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-django.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-django-rest-framework.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-django-rest-framework.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-docker.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-docker.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-domain-name-management.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-domain-name-management.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-DSA.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-dsa.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-express.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-express.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-firefox-extension.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-firefox-extension.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-frontend.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-frontend.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-fullstack.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-fullstack.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-game-design.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-game-design.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-game-dev.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-game-dev.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-gamejam.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-gamejam.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-gdb.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-gdb.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-genetic-algorithm.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-genetic-algorithm.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-github-actions.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-github-actions.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-github-contributor.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-github-contributor.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-go.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-go.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-godot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-godot.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-hackathon.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-hackathon.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-heroku.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-heroku.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-hosting.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-hosting.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-html.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-html.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-image-gen.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-image-gen.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-irc.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-irc.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-java.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-java.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-js.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-js.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-jupyter-notebook.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-jupyter-notebook.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-LaTeX.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-latex.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-level-design.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-level-design.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-linux.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-linux.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-low-level-debugging.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-low-level-debugging.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-machine-learning.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-machine-learning.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-matplotlib.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-matplotlib.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-music.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-music.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-myers-diff-algo.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-myers-diff-algo.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-network-traffic-capture.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-network-traffic-capture.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-networking.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-networking.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-neural-networks.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-neural-networks.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-nextjs.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-nextjs.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-nltk.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-nltk.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-nodejs.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-nodejs.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-npm.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-npm.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-numpy.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-numpy.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-oauth.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-oauth.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-oop.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-oop.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-openai.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-openai.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-pandas.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-pandas.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-parcel.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-parcel.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-php.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-php.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-platformer.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-platformer.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-postgres.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-postgres.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-prod.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-prod.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-protocol.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-protocol.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-proxy.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-proxy.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-pug.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-pug.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-puppeteer.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-puppeteer.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-pwndbg.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-pwndbg.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-pygame.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-pygame.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-python.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-python.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-pytorch.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-pytorch.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-react.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-react.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-realtime.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-realtime.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-redis.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-redis.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-research.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-research.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-reverse-engineering.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-reverse-engineering.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-rust.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-rust.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-scikit.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-scikit.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-scraping.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-scraping.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-selenium.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-selenium.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-server-management.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-server-management.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-serverless.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-serverless.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-slack-bot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-slack-bot.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-software-engineering.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-software-engineering.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-sql.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-sql.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-sqlite.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-sqlite.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-ssl.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-ssl.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-supabase.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-supabase.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-svelte.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-svelte.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-sveltekit.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-sveltekit.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-tailwindcss.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-tailwindcss.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-TDD.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-tdd.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-tensorflow.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-tensorflow.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-threejs.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-threejs.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-turbo-hotwired.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-turbo-hotwired.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-two-factor-auth.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-two-factor-auth.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-typescript.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-typescript.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-unity.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-unity.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-vb-net.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-vb-net.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-visual-novel.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-visual-novel.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-vite.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-vite.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-webdesign.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-webdesign.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-webdev.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-webdev.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-wip.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-wip.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-writing.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-writing.html",
+      "dependencies": []
+    },
+    "00 Tags/tag-x3d.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 0,
+      "exportedPath": "00-tags/tag-x3d.html",
+      "dependencies": []
+    },
+    "01 Projects/00 School/Personal/Dumpmon grabber.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 149,
+      "exportedPath": "01-projects/00-school/personal/dumpmon-grabber.html",
+      "dependencies": []
+    },
+    "01 Projects/00 School/Personal/IRC Bot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 156,
+      "exportedPath": "01-projects/00-school/personal/irc-bot.html",
+      "dependencies": []
+    },
+    "01 Projects/00 School/Personal/Personal.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 62,
+      "exportedPath": "01-projects/00-school/personal/personal.html",
+      "dependencies": []
+    },
+    "01 Projects/00 School/Personal/Raspberry Pi Setup Scripts.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 141,
+      "exportedPath": "01-projects/00-school/personal/raspberry-pi-setup-scripts.html",
+      "dependencies": []
+    },
+    "01 Projects/00 School/School.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 53,
+      "exportedPath": "01-projects/00-school/school.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Assignments/Assignments.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 25,
+      "exportedPath": "01-projects/01-college/assignments/assignments.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Assignments/ICT Site.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 100,
+      "exportedPath": "01-projects/01-college/assignments/ict-site.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Assignments/IRC-CaLS.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 201,
+      "exportedPath": "01-projects/01-college/assignments/irc-cals.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Personal/concatBot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 171,
+      "exportedPath": "01-projects/01-college/personal/concatbot.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Personal/Cyber Discovery Finalist Challenge.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 208,
+      "exportedPath": "01-projects/01-college/personal/cyber-discovery-finalist-challenge.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Personal/Hexbot.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 91,
+      "exportedPath": "01-projects/01-college/personal/hexbot.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/Personal/Personal.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 64,
+      "exportedPath": "01-projects/01-college/personal/personal.html",
+      "dependencies": []
+    },
+    "01 Projects/01 College/College.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 96,
+      "exportedPath": "01-projects/01-college/college.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/AIAB.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 384,
+      "exportedPath": "01-projects/02-university/assignments/aiab.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Assignments.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 664,
+      "exportedPath": "01-projects/02-university/assignments/assignments.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Checkers.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 144,
+      "exportedPath": "01-projects/02-university/assignments/checkers.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Clue.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 141,
+      "exportedPath": "01-projects/02-university/assignments/clue.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Computer Vision.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 259,
+      "exportedPath": "01-projects/02-university/assignments/computer-vision.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Database design and sql.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 161,
+      "exportedPath": "01-projects/02-university/assignments/database-design-and-sql.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/DSA Programming Project.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 236,
+      "exportedPath": "01-projects/02-university/assignments/dsa-programming-project.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Individual Project.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 381,
+      "exportedPath": "01-projects/02-university/assignments/individual-project.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Lovejoys Antique Evaluations.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 340,
+      "exportedPath": "01-projects/02-university/assignments/lovejoys-antique-evaluations.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Machine learning.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 254,
+      "exportedPath": "01-projects/02-university/assignments/machine-learning.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Minesweeper.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 169,
+      "exportedPath": "01-projects/02-university/assignments/minesweeper.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Natural Language Engineering.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 242,
+      "exportedPath": "01-projects/02-university/assignments/natural-language-engineering.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Assignments/Web 3D.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 173,
+      "exportedPath": "01-projects/02-university/assignments/web-3d.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Bandcamp Web Downloader.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 248,
+      "exportedPath": "01-projects/02-university/personal/bandcamp-web-downloader.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Blaseball Peanut Clicker.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 153,
+      "exportedPath": "01-projects/02-university/personal/blaseball-peanut-clicker.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Ghost Terminal Dracula theme.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 114,
+      "exportedPath": "01-projects/02-university/personal/ghost-terminal-dracula-theme.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Hacksussex 2019.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 127,
+      "exportedPath": "01-projects/02-university/personal/hacksussex-2019.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Hosting with VPS.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 338,
+      "exportedPath": "01-projects/02-university/personal/hosting-with-vps.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/i3 Config.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 62,
+      "exportedPath": "01-projects/02-university/personal/i3-config.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/litebin.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 106,
+      "exportedPath": "01-projects/02-university/personal/litebin.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Markdown dracula theme.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 92,
+      "exportedPath": "01-projects/02-university/personal/markdown-dracula-theme.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/MDView.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 92,
+      "exportedPath": "01-projects/02-university/personal/mdview.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/nixos config.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 59,
+      "exportedPath": "01-projects/02-university/personal/nixos-config.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/pastel.codes.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 284,
+      "exportedPath": "01-projects/02-university/personal/pastel.codes.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/Personal.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 370,
+      "exportedPath": "01-projects/02-university/personal/personal.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/TTTTT.uk.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 203,
+      "exportedPath": "01-projects/02-university/personal/ttttt.uk.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/Personal/University Note Tools.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 130,
+      "exportedPath": "01-projects/02-university/personal/university-note-tools.html",
+      "dependencies": []
+    },
+    "01 Projects/02 University/University.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 123,
+      "exportedPath": "01-projects/02-university/university.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Personal/FlipAnalytica - Hacksussex 2023.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 259,
+      "exportedPath": "01-projects/03-work/personal/flipanalytica-hacksussex-2023.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Personal/hiddennet.works.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 201,
+      "exportedPath": "01-projects/03-work/personal/hiddennet.works.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Personal/Managing a minecraft server.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 140,
+      "exportedPath": "01-projects/03-work/personal/managing-a-minecraft-server.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Personal/Personal.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 101,
+      "exportedPath": "01-projects/03-work/personal/personal.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Personal/Watcher.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 373,
+      "exportedPath": "01-projects/03-work/personal/watcher.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/Heythere/Heythere Extensions.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 517,
+      "exportedPath": "01-projects/03-work/projects/heythere/heythere-extensions.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/Heythere/Heythere Web.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 562,
+      "exportedPath": "01-projects/03-work/projects/heythere/heythere-web.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/BizarrePG.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 296,
+      "exportedPath": "01-projects/03-work/projects/bizarrepg.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/Changewatch.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 474,
+      "exportedPath": "01-projects/03-work/projects/changewatch.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/N0RT.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 183,
+      "exportedPath": "01-projects/03-work/projects/n0rt.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/Projects.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 97,
+      "exportedPath": "01-projects/03-work/projects/projects.html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Projects/The Loop..md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 205,
+      "exportedPath": "01-projects/03-work/projects/the-loop..html",
+      "dependencies": []
+    },
+    "01 Projects/03 Work/Work.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 102,
+      "exportedPath": "01-projects/03-work/work.html",
+      "dependencies": []
+    },
+    "Projects.md": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 50,
+      "exportedPath": "projects.html",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 67909,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 15416,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 157722,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 2416,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1714398427489,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    }
+  }
+}

@@ -201,3 +201,5 @@ notes
 public/stylesheets/style.css
 ngrok
 .dccache
+
+.DS_store

@@ -1,5 +1,5 @@
-var express = require('express');
-const axios = require('axios');
+var express = require("express");
+const axios = require("axios");
 var router = express.Router();
 
 /* GET home page. */
@@ -30,7 +30,13 @@ router.get('/', function (req, res, _next) {
       })
     )
     .catch((error) => {
-      console.log(error);
+      var base = {
+        title: 'About',
+        description: 'Who??? What??? AAAAaaa, about me.',
+      };
+      var out = Object.assign(base);
+      console.log('error', error);
+      res.render('about', out);
     });
 });
 

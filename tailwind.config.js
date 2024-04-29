@@ -1,13 +1,13 @@
 module.exports = {
-  mode: "jit",
+  mode: 'jit',
   purge: ['views/*.pug'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        'extra': ['"Titling Gothic FB"'],
-        'sans': ['Gilroy'],
-        'mono': ['"Apercu Mono"'],
+        extra: ['"Titling Gothic FB"'],
+        sans: ['Gilroy'],
+        mono: ['"Apercu Mono"'],
       },
       colors: {
         transparent: 'transparent',
@@ -20,14 +20,12 @@ module.exports = {
         },
         green: {
           DEFAULT: '#CDE7B0',
-        }
-      }
+        },
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [
-    require('tailwind-hamburgers'),
-  ],
-}
+  plugins: [require('tailwind-hamburgers')],
+};

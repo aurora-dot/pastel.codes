@@ -2,23 +2,23 @@
 @tailwind components;
 
 @font-face {
-    font-family: 'Titling Gothic FB';
-    src: url("../fonts/TITLINGGOTHICFB-WIDE.OTF") format('opentype')
+  font-family: 'Titling Gothic FB';
+  src: url('../fonts/TITLINGGOTHICFB-WIDE.OTF') format('opentype');
 }
 
 @font-face {
-    font-family: 'Gilroy';
-    src: url("../fonts/Gilroy-ExtraBold.otf") format('opentype')
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Apercu Mono';
-    src: url("../fonts/ApercuMono.ttf") format('truetype');
+  font-family: 'Apercu Mono';
+  src: url('../fonts/ApercuMono.ttf') format('truetype');
 }
 
 .wavy {
-    text-decoration: underline;
-    text-decoration-style: wavy;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }
 
 @tailwind utilities;

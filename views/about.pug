@@ -7,6 +7,9 @@ block nav-links
     a(href='#')
         li(class="py-3 bg-black text-green hover:bg-pink hover:text-black transition duration-500 ease-in-out") 
             span About
+    a(href='/obsidian/projects.html')
+        li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
+            span Obsidian
     a(href='https://github.com/aurora-dot')
         li(class="py-3 bg-pink text-black hover:bg-black hover:text-pink transition duration-500 ease-in-out")
             span Projects
@@ -27,6 +30,10 @@ block content
                 p.mb-5 I’m currently working at Bounce Technologies, where I contribute to or lead various projects using a bunch of different languages and technologies.
                 p.mb-5 I also do UI/UX design and DevOps! I’m currently learning Go and adjusting to TypeScript.
                 p.mb-5 In my spare time I create digital art and make electronic music. I also like to discover and play experimental and artistic video games.
+                p.mb-5 Here are all of 
+                    a(class=" text-green" href="/obsidian/projects.html") my projects
+                    span  and my 
+                        a(class=" text-green" href="https://github.com/aurora-dot/") GitHub
             if project
                 div
                     h1.font-sans.text-6xl.wavy.my-10 Projects.

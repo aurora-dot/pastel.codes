@@ -38,12 +38,16 @@ app.use(
         'https://hcaptcha.com',
         'https://*.hcaptcha.com',
         'https://cdn.ravenjs.com/',
+        'https://cdnjs.cloudflare.com/',
+        'https://cdn.jsdelivr.net/',
+        'https://*.cloudfront.net/',
       ],
       imgSrc: [
         "'self'",
         'https://blog.pastel.codes',
         'https://static.ghost.org',
         'https://secure.gravatar.com',
+        'data: ',
       ],
       styleSrc: [
         "'self'",
@@ -63,6 +67,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/obsidian', express.static(path.join(__dirname, 'obsidian')));
 
 app.use('/', indexRouter);
 app.use('/about', aboutRouter);

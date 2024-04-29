@@ -12,9 +12,13 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon ./bin/www -e js,pug,sass",
+    "dev": "npx nodemon ./bin/www -e js,pug,sass",
+    "start": "npx ./bin/www -e js,pug,sass",
     "watch-tailwind": "npx npm-watch",
-    "build-tailwind": "npx postcss src/tailwind.css -o public/stylesheets/style.css"
+    "build-tailwind": "npx postcss src/tailwind.css -o public/stylesheets/style.css",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write --ignore-path .gitignore .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@sendgrid/mail": "^8.1.3",
@@ -39,7 +43,13 @@
   "devDependencies": {
     "eslint": "^9.1.1",
     "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md,pug}": "prettier --write"
   }
 }
